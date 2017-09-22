@@ -6,9 +6,11 @@
                 background-color: black;
                 
             }
+            footer{
+                text-align: right;
+            }
             .principal{
-                border: 1px solid white;
-                width: 800px: 
+                width: 100%: 
                   
             }
             #div1{
@@ -17,8 +19,13 @@
             #div2{
                 
             }
-            h2{
+            .noticia{
+                margin-left: 10%;
+                width: 80%;
+            }
+            .hola{
                 font-family: monospace;
+                text-align: center;
                 font-size: 40px;
                 color: white;
             }
@@ -28,19 +35,23 @@
                 text-align: justify;
             }
             img{
-                width: 400px;
-                height: 100px;
-                margin-left: 
+                width: 80%;
+              
+                margin-left: 10%;
+            }
+            .redes{
+                width: 10%;
             }
         </style>
     </head>
     <!-- Todo aqui es comentario -->
     <body>
+        <header><p>Pagina</p></header>
         <div class="principal">
             <div class="noticia" id="div1">
-                <h2>Noticia 1</h2>
-                <img src="J3.png">
-                <p>C# provides many operators, which are symbols that specify which operations (math, indexing, function call, etc.) to perform in an expression. You can overload many operators to change their meaning when applied to a user-defined type.
+                <h2 class="hola">Noticia 1</h2>
+                <a href="http://www.google.com"> <img src="J3.png"> </a>
+                <p>C# provides many operators, which<a href="http://www.google.com"> quiz </a> are symbols that specify which operations (math, indexing, function call, etc.) to perform in an expression. You can overload many operators to change their meaning when applied to a user-defined type.
                 </p>
             </div>
             <div class="noticia" id="div2">
@@ -51,4 +62,5 @@
             </div>
         </div>
     </body>
+    <footer><h2 class="h">Pie de pagina  </h2><img class="redes"src="J3.png"></footer>
 </html>
